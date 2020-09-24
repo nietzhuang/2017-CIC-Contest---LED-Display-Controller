@@ -25,4 +25,3 @@ set hdlout_internal_busses true
 define_name_rules name_rule -allowed {a-z A-Z 0-9 _} -max_length 255 -type cell
 define_name_rules name_rule -allowed {a-z A-Z 0-9 _[]} -max_length 255 -type net
 define_name_rules name_rule -map {{"\\*cell\\*" "cell"}}
-
